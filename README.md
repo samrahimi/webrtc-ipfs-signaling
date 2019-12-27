@@ -1,7 +1,6 @@
 # WebRTC IPFS Signaling
 
-This project is a proof of concept to see whether we can use IPFS to do WebRTC signaling obviating the need for a
-separate server.
+After a complete disaster involving some of the latest and greatest IPFS / libp2p hacks, I'm switching to this proven ipfs-pubsub solution as my signaling transport... will merge it into my RTCManager that creates a multiparty full mesh network around any topic.
 
 ### Goal 1 - Browser to Browser Signaling
 
